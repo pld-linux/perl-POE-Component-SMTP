@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	POE
 %define	pnam	Component-SMTP
-Summary:	POE::Filter::SMTP - SMTP Protocol Filter
+Summary:	POE::Filter::SMTP - SMTP protocol filter
 Summary(pl):	POE::Filter::SMTP - filtr dla protoko³u SMTP
 Name:		perl-POE-Component-SMTP
 Version:	1.5
