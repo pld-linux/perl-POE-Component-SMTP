@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	POE
-%define	pnam	Component-SMTP
+%define		pdir	POE
+%define		pnam	Component-SMTP
 Summary:	POE::Filter::SMTP - SMTP protocol filter
 Summary(pl):	POE::Filter::SMTP - filtr dla protoko³u SMTP
 Name:		perl-POE-Component-SMTP
