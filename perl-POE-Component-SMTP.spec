@@ -8,13 +8,13 @@
 Summary:	POE::Filter::SMTP - SMTP Protocol Filter
 Summary(pl):	POE::Filter::SMTP - filtr dla protoko³u SMTP
 Name:		perl-POE-Component-SMTP
-Version:	1.4
+Version:	1.5
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a8b1906a4ec0f99b5cb57498dc7a80c9
+# Source0-md5:	75999b462eb9a3726c521f2547b96b53
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{!?_without_tests:1}0
