@@ -6,12 +6,12 @@
 %define	pdir	POE
 %define	pnam	Component-SMTP
 Summary:	POE::Filter::SMTP - SMTP Protocol Filter
-#Summary(pl):	
+Summary(pl):	POE::Filter::SMTP - filtr dla protoko³u SMTP
 Name:		perl-POE-Component-SMTP
 Version:	1.4
 Release:	1
 # same as perl
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a8b1906a4ec0f99b5cb57498dc7a80c9
@@ -26,12 +26,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-POE::Fitler::SMTP fitlers input and output and splits command and
-arguments, as well as return codes and return strings.  It is a subclass
-of POE::Filter::Line.
+POE::Filter::SMTP filters input and output and splits command and
+arguments, as well as return codes and return strings. It is a
+subclass of POE::Filter::Line.
 
-# %description -l pl
-# TODO
+%description -l pl
+POE::Filter::SMTP filtruje wej¶cie i wyj¶cie oraz oddziela polecenia
+i argumenty, a tak¿e zwracane kody i ³añcuchy. Jest to podklasa
+POE::Filter::Line.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
