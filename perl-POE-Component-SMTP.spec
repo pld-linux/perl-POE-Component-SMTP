@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Component-SMTP
 Summary:	POE::Filter::SMTP - SMTP protocol filter
-Summary(pl):	POE::Filter::SMTP - filtr dla protoko≥u SMTP
+Summary(pl.UTF-8):   POE::Filter::SMTP - filtr dla protoko≈Çu SMTP
 Name:		perl-POE-Component-SMTP
 Version:	1.6
 Release:	1
@@ -30,9 +30,9 @@ POE::Filter::SMTP filters input and output and splits command and
 arguments, as well as return codes and return strings. It is a
 subclass of POE::Filter::Line.
 
-%description -l pl
-POE::Filter::SMTP filtruje wej∂cie i wyj∂cie oraz oddziela polecenia
-i argumenty, a takøe zwracane kody i ≥aÒcuchy. Jest to podklasa
+%description -l pl.UTF-8
+POE::Filter::SMTP filtruje wej≈õcie i wyj≈õcie oraz oddziela polecenia
+i argumenty, a tak≈ºe zwracane kody i ≈Ça≈Ñcuchy. Jest to podklasa
 POE::Filter::Line.
 
 %prep
