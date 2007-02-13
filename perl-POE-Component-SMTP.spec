@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Component-SMTP
 Summary:	POE::Filter::SMTP - SMTP protocol filter
-Summary(pl.UTF-8):   POE::Filter::SMTP - filtr dla protokołu SMTP
+Summary(pl.UTF-8):	POE::Filter::SMTP - filtr dla protokołu SMTP
 Name:		perl-POE-Component-SMTP
 Version:	1.6
 Release:	1
