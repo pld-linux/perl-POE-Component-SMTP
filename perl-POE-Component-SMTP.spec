@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	POE
 %define		pnam	Component-SMTP
+%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Filter::SMTP - SMTP protocol filter
 Summary(pl.UTF-8):	POE::Filter::SMTP - filtr dla protokołu SMTP
 Name:		perl-POE-Component-SMTP
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	26c8d3705ef2bb9ac3d6d980ee5da73d
+URL:		http://search.cpan.org/dist/POE-Component-SMTP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{?with_tests}
+%if %{with tests}
 BuildRequires:	perl-POE
 BuildRequires:	perl-POE-Session-MultiDispatch
 BuildRequires:	perl-Test-Simple
@@ -31,8 +32,8 @@ arguments, as well as return codes and return strings. It is a
 subclass of POE::Filter::Line.
 
 %description -l pl.UTF-8
-POE::Filter::SMTP filtruje wejście i wyjście oraz oddziela polecenia
-i argumenty, a także zwracane kody i łańcuchy. Jest to podklasa
+POE::Filter::SMTP filtruje wejście i wyjście oraz oddziela polecenia i
+argumenty, a także zwracane kody i łańcuchy. Jest to podklasa
 POE::Filter::Line.
 
 %prep
